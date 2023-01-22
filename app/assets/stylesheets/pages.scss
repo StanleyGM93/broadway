@@ -12,7 +12,8 @@ html, body {
   
   .jumbotron {
     height: 800px;
-    background-image: url("../images/broadway-bg-cityscape.jpg");
+    background-image: url(https://content.codecademy.com/projects/broadway/bg.jpg);
+    background-size: cover;
   }
   
   .header {
@@ -62,6 +63,21 @@ html, body {
     margin-top: 0;
     margin-bottom: 80px;
     text-transform: uppercase;
+  }
+
+  .btn-dark-grey {
+    border: 1px solid #FFF;
+    color:#FFF;
+    background-color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    padding: 15px 50px;
+    text-decoration: none;
+    text-transform: uppercase;  
+    display: inline-block;
+    margin-bottom: 20px;
   }
   
   .btn-default {
